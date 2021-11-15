@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: pywebapp
-        image: hariprasad326/flaskapp
+        image: nginx:latest
         ports:
         - containerPort: 8080
         resources:
