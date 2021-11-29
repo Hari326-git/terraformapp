@@ -15,5 +15,5 @@ spec:
         app: Busybox
     spec:
       containers:
-      - name: busybox
+      - name: busybox:latest
         image: busybox
