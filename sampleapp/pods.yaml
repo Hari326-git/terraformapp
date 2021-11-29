@@ -17,3 +17,5 @@ spec:
       containers:
       - name: busybox:latest
         image: busybox
+        ports:
+        - containerPort: 3000
