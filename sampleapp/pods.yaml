@@ -1,21 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: pywebapp
+  name: Busybox
   labels:
-    app: pywebapp
+    app: Busybox
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
-      app: pywebapp
+      app: Busybox
   template:
     metadata:
       labels:
-        app: pywebapp
+        app: Busybox
     spec:
       containers:
-      - name: pywebapp
-        image: nginx:latest
-        ports:
-        - containerPort: 8080
+      - name: gcr.io/envdemocheck/busybox
+        image: Busybox
