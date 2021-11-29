@@ -15,5 +15,5 @@ spec:
         app: Busybox
     spec:
       containers:
-      - name: gcr.io/envdemo-1/busybox
+      - name: busybox
         image: busybox
