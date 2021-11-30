@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: pywebapp
 spec:
-  type: clusterIP
+  type: ClusterIP
   selector:
     app: pywebapp
   ports:
