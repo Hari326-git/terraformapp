@@ -15,7 +15,7 @@ spec:
         app: Busybox
     spec:
       containers:
-      - name: busybox:latest
+      - name: nginx:latest
         image: busybox
         ports:
         - containerPort: 3000
