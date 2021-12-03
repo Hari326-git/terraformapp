@@ -8,6 +8,7 @@ spec:
     app: pywebapp
   ports:
   - name: http
-    protocol: TCP
-    port: 8080
+    port: 80
+    protocol: https
+    port: 443
     targetPort: 8080
